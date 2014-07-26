@@ -1,2 +1,5 @@
-android_device_sony_amami
-==========================
+Copyright 2013 - The CyanogenMod Project
+
+Copyright 2014 - The LiquidSmooth Project
+
+Device configuration for Sony Xperia Z1 Compact.
