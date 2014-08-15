@@ -27,6 +27,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/amami/bluetooth
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_rhine_amami_row_defconfig
+TARGET_GCC_VERSION_ARM := 4.9-sm
+TARGET_GCC_VERSION_AND := 4.8-sm
 
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard1
