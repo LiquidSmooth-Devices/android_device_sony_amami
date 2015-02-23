@@ -31,6 +31,12 @@
   },
   {
     "remote": "cm",
+    "revision": "cm-12.0",
+    "repository": "android_device_sony_msm8974-common",
+    "target_path": "device/sony/msm8974-common"
+  },
+  {
+    "remote": "cm",
     "revision": "lollipop",
     "repository": "CyanogenMod/android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
