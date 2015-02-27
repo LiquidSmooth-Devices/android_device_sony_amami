@@ -39,7 +39,7 @@
     "remote": "cm",
     "revision": "cm-12.0",
     "repository": "android_hardware_sony_thermanager",
-    "target_path": "hardware/sony/thermanager",
+    "target_path": "hardware/sony/thermanager"
   },
   {
     "remote": "tm",
