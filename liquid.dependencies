@@ -6,9 +6,9 @@
     "target_path": "device/sony/rhine-common"
   },
   {
-    "remote": "sr",
-    "revision": "lp5.0",
-    "repository": "kernel_sony_msm8974",
+    "remote": "cm",
+    "revision": "cm-12.0",
+    "repository": "android_kernel_sony_msm8974",
     "target_path": "kernel/sony/msm8974"
   },
   {
