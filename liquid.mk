@@ -1,5 +1,4 @@
-#
-# Copyright 2014 The Android Open Source Project
+# Copyright 2015 The LiquidSmooth Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,6 +11,14 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-add_lunch_combo aosp_d5503-userdebug
+# Inherit some common Liquid stuff.
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
+
+# Inherit device configuration
+$(call inherit-product, device/sony/amami/aosp_d5503.mk)
+
+PRODUCT_NAME := liquid_d5503

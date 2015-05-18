@@ -19,8 +19,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, device/sony/rhine/device.mk)
 $(call inherit-product, vendor/sony/amami/amami-vendor.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
-$(call inherit-product-if-exists, prebuilts/chromium/webview_prebuilt.mk)
-$(call inherit-product-if-exists, vendor/google/products/gms.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/amami/overlay
@@ -32,9 +30,8 @@ PRODUCT_COPY_FILES += \
     device/sony/amami/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     device/sony/amami/rootdir/system/etc/sensors_calib.conf:system/etc/sensors_calib.conf
 
-PRODUCT_NAME := aosp_d5503
 PRODUCT_DEVICE := amami
-PRODUCT_MODEL := Xperia Z1 Compact (AOSP)
+PRODUCT_MODEL := Xperia Z1 Compact
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 

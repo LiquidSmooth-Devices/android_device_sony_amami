@@ -1,0 +1,44 @@
+[
+  {
+    "remote": "lsd",
+    "repository": "proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "5.1"
+  },
+  {
+    "remote": "lsd",
+    "repository": "android_device_sony_rhine",
+    "target_path": "device/sony/rhine",
+    "revision": "5.1"
+  },
+  {
+    "remote": "sony",
+    "repository": "kernel",
+    "target_path": "kernel/sony/msm",
+    "revision": "AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067"
+  },
+  {
+    "remote": "sony",
+    "repository": "vendor-sony-kernel",
+    "target_path": "vendor/sony/kernel",
+    "revision": "master"
+  },
+  {
+    "remote": "sony",
+    "repository": "mkqcdtbootimg",
+    "target_path": "vendor/sony/system/mkqcdtbootimg",
+    "revision": "master"
+  },
+  {
+    "remote": "sony",
+    "repository": "thermanager",
+    "target_path": "vendor/sony/system/thermanager",
+    "revision": "master"
+  },
+  {
+    "remote": "sony",
+    "repository": "timekeep",
+    "target_path": "vendor/sony/system/timekeep",
+    "revision": "master"
+  }
+]
