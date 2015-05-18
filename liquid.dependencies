@@ -12,6 +12,12 @@
     "revision": "5.1"
   },
   {
+    "remote": "lsd",
+    "repository": "vendor_crazy",
+    "target_path": "vendor/crazy",
+    "revision": "5.1"
+  },
+  {
     "remote": "sony",
     "repository": "kernel",
     "target_path": "kernel/sony/msm",
