@@ -15,7 +15,7 @@
     "remote": "sony",
     "repository": "kernel",
     "target_path": "kernel/sony/msm",
-    "revision": "AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067"
+    "revision": "aosp/AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067"
   },
   {
     "remote": "sony",
