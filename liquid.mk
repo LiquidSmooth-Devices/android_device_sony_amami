@@ -21,4 +21,4 @@ $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/sony/amami/aosp_d5503.mk)
 
-PRODUCT_NAME := liquid_d5503
+PRODUCT_NAME := liquid_amami
