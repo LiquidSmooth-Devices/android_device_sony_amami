@@ -2,7 +2,7 @@
   {
     "remote": "lsd",
     "repository": "proprietary_vendor_sony",
-    "target_path": "vendor/sony",
+    "target_path": "vendor/",
     "revision": "5.1"
   },
   {
